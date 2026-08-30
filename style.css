@@ -706,6 +706,18 @@ p{ margin: 0 0 1em; color: #33322f; max-width: 62ch; }
 .ref-stats--compact span{ color: var(--concrete); }
 .ref-stats--compact strong{ color: var(--ink); font-size: 1.1rem; }
 
+.ref-cta{
+  margin-top: 48px;
+  text-align: center;
+}
+.ref-cta p{
+  margin: 0 0 16px;
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: var(--ink);
+}
+
 /* =========================================================
    Kontakt
    ========================================================= */
