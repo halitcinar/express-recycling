@@ -582,7 +582,7 @@ p{ margin: 0 0 1em; color: #33322f; max-width: 62ch; }
 /* Referenzen */
 .ref-featured{
   margin-top: 40px;
-  background: var(--ink);
+  background: var(--red);
   color: var(--paper);
   border-radius: var(--radius);
   overflow: hidden;
@@ -621,8 +621,8 @@ p{ margin: 0 0 1em; color: #33322f; max-width: 62ch; }
   font-size: 1.8rem;
   margin-bottom: 4px;
 }
-.ref-featured-body .ref-meta{ color: var(--green); }
-.ref-featured-body > p{ color: rgba(244,242,236,0.8); }
+.ref-featured-body .ref-meta{ color: rgba(244,242,236,0.95); }
+.ref-featured-body > p{ color: rgba(244,242,236,0.88); }
 
 .ref-stats{
   list-style: none;
@@ -631,8 +631,8 @@ p{ margin: 0 0 1em; color: #33322f; max-width: 62ch; }
   gap: 26px;
   margin: 22px 0;
   padding: 18px 0;
-  border-top: 1px solid rgba(244,242,236,0.15);
-  border-bottom: 1px solid rgba(244,242,236,0.15);
+  border-top: 1px solid rgba(244,242,236,0.3);
+  border-bottom: 1px solid rgba(244,242,236,0.3);
 }
 .ref-stats li{ display: flex; flex-direction: column; gap: 3px; }
 .ref-stats span{
@@ -640,7 +640,7 @@ p{ margin: 0 0 1em; color: #33322f; max-width: 62ch; }
   font-size: 0.68rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: rgba(244,242,236,0.55);
+  color: rgba(244,242,236,0.72);
 }
 .ref-stats strong{
   font-family: var(--display);
@@ -651,7 +651,7 @@ p{ margin: 0 0 1em; color: #33322f; max-width: 62ch; }
 .ref-scope{
   margin: 20px 0 0;
   padding-left: 18px;
-  color: rgba(244,242,236,0.75);
+  color: rgba(244,242,236,0.85);
 }
 .ref-scope li{ margin-bottom: 6px; }
 
